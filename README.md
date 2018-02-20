@@ -71,7 +71,9 @@ $$
 		,...
 		,p_{n} = \begin{pmatrix}  \frac{X}{D+nd} \\ \frac{Y}{D+nd}  \end{pmatrix}
 $$
+
 If $D>>nd$ or the distance of camera zero to N should be small about the total depth of blocks in Images, then we can write:
+
 $$
 		with \\
 	  p_{n} = \begin{pmatrix}  \frac{X}{D}*\frac{1}{(1+ \frac{nd}{D})} \\ 
@@ -79,7 +81,9 @@ $$
 	 ,p_{n} = \begin{pmatrix}  \frac{X}{D}* (1+ \frac{nd}{D})  ^{-1} \\ 
 											\frac{Y}{D}* (1+ \frac{nd}{D})  ^{-1}   \end{pmatrix}
 $$
+
 With Binomial approximation, we can rewrite the equation as follows:
+
 $$
 		\approx
 		 p_{n} = \begin{pmatrix}  \frac{X}{D}* (1- \frac{nd}{D})  \\ 
@@ -87,7 +91,9 @@ $$
 		=\begin{pmatrix}   p_{0x}*(1- \frac{nd}{D})  \\ 
 							p_{0y}*(1- \frac{nd}{D})   \end{pmatrix}
 $$
+
 In last step, the equation shows that difference in two feature's position should be constant and equal to the $p_{0y} \frac{d}{D}$.
+
 $$
 \approx
 		p_{nx}-p_{(n+1)x} = p_{0x}*(1- \frac{nd}{D}) - p_{0x}*(1- \frac{nd}{D} -  \frac{d}{D})
@@ -103,6 +109,7 @@ $$
 ####  Extended method
 
 In this section, generalized view of algorithm shown. When the camera penetrate with variable speed in this condition distance of two subsequent frame is not equal. In equation Ex_elementary has shown a basic formula of the variable distance between cameras.
+
 $$
 p_{0}  = \begin{pmatrix} \frac{X}{D} \\ \frac{Y}{D}  \end{pmatrix}
 		,p_{1} = \begin{pmatrix}  \frac{X}{D+d_{1}} \\ \frac{Y}{D+d_{1}}  \end{pmatrix}
@@ -111,13 +118,16 @@ $$
 *Ex_elementary*
 
 Using Binomial approximation, same as equation Binomial approximation we this equation  for variable speed cameras.
+
 $$
 p_{1} \approx \begin{pmatrix}  \frac{X}{D}* (1- \frac{d_{1}}{D})  \\ 
 												\frac{Y}{D}* (1- \frac{d_{1}}{D})   \end{pmatrix}
 		,p_{2} \approx \begin{pmatrix}  \frac{X}{D}* (1- \frac{d_{1}+d_{2}}{D})  \\ 
 												\frac{Y}{D}* (1- \frac{d_{1}+d_{2}}{D})   \end{pmatrix}
 $$
+
 Proportion of difference in two consequence is shown in equation Eq_final. This shows the proportion is constant for this condition. For any point in space, this equation uses the relative depth of that point.
+
 $$
 \frac{ p_{0}-p_{2} }{  p_{0}-p_{1} }= \frac{d_{1}+d_{2}}{d1}
 $$
