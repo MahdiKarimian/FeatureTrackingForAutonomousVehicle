@@ -170,6 +170,7 @@ For first feature we have:
 | y    | 205  | 204  | 202  | 201  |
 
 For second feature we have:
+
 |   .  | feature in image 1  | feature in image 2  | feature in image 3  | feature in image 4  |
 | ---- | ---- | ---- | ---- | ---- |
 | x    | 465  | 463  | 470  | 478  |
