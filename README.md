@@ -190,3 +190,15 @@ ground truth data for driver assistance applications?. In: GCPR. 2013.
 
 [2] Ren Ng et al. ?Light ?eld photography with a hand-held plenoptic camera?. In: Computer Science
 Technical Report CSTR 2.11 (2005), pp. 1?11.
+
+
+Cite this if useful!
+
+```
+@MastersThesis{MahdiKarimian:Thesis:2013,
+    author     =     {Mahdi Karimianshahri},
+    title      =     {Cooperative camera localization},
+    school     =     {Sharif University of Technology},
+    year       =     {2013},
+    }
+```
