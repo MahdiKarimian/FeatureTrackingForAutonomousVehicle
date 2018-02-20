@@ -163,26 +163,29 @@ Feature distance offset is same and equal to $ (p_{0x}-O_{x}) \frac{d}{D}$
 
 Synthetic dataset generator, help to check the algorithm. in this paper we use Vladimir Haltakov dataset generator[1]. We compare the difference for features in two consecutive frames.   
 For first feature we have:
-|     | feature in image 1  | feature in image 2  | feature in image 3  | feature in image 4  |
+
+|   .  | feature in image 1  | feature in image 2  | feature in image 3  | feature in image 4  |
 | ---- | ---- | ---- | ---- | ---- |
 | x    | 298  | 296  | 294  | 291  |
 | y    | 205  | 204  | 202  | 201  |
 
 For second feature we have:
-|     | feature in image 1  | feature in image 2  | feature in image 3  | feature in image 4  |
+|   .  | feature in image 1  | feature in image 2  | feature in image 3  | feature in image 4  |
 | ---- | ---- | ---- | ---- | ---- |
 | x    | 465  | 463  | 470  | 478  |
 | y    | 110  | 102  | 93   | 85   |
 
 For third feature we have:
-|     | feature in image 1  | feature in image 2  | feature in image 3  | feature in image 4  |
+
+|   .  | feature in image 1  | feature in image 2  | feature in image 3  | feature in image 4  |
 | ---- | ---- | ---- | ---- | ---- |
 | x    | 159  | 149  | 139  | 128  |
 | y    | 216  | 216  | 214  | 213  |
 
 When camera frame rate is high enough, the frame is taken with centimeter or millimeter in location. In this configuration we know every cars dashboard and head rig is one meter long, this shows that this algorithm is good for many situation where the vehicle travel. In some condition where the camera has been placed on front light we has problem with depth of point in front of camera can generate violation in algorithm.
 the bad point in images is like in picture $18_00007$ where the line of road is near the camera.
-|     | feature in image 1  | feature in image 2  | feature in image 3  | feature in image 4  |
+
+|   .  | feature in image 1  | feature in image 2  | feature in image 3  | feature in image 4  |
 | ---- | ---- | ---- | ---- | ---- |
 | x    | 217  | 211  | 204  | 190  |
 | y    | 370  | 373  | 375  | 384  |
