@@ -1,3 +1,5 @@
+Note: For best view of equations use "GitHub with MathJax" extention for your browser.
+
 # FeatureTrackingForAutonomousVehicle
 Sequential frame feature tracking for autonomous vehicle
 
